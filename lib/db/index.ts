@@ -1,5 +1,4 @@
 import mongoose from "mongoose"
-import { cache } from "react"
 
 const cached = (global as any).mongoose || {conn: null, promise:null}
 
